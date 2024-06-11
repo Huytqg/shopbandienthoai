@@ -1,0 +1,437 @@
+body
+{
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    background-color: #FFE5E9;
+}
+.container
+{
+    font-family: Arial;
+    width: 100%;
+    margin: 0px auto;
+}
+/* header */
+/* logo */
+.logo
+{
+    float: left;
+    height: 40px;
+    padding: 5px;
+}
+.logo img
+{
+    height: 100%;
+    width: auto;
+}
+/* Hết logo */
+/* Menu */
+.main_menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+.down_content {
+    display: none;
+    position: absolute;
+    background-color:#52A800;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.down_content a {
+    color: white;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.down_content a:hover {background-color: #006400;}
+
+.main_menu:hover .down_content {display: block;}
+
+.main_menu:hover #down_img {background-color:#52A800;}
+.main_menu
+{
+    float: left;
+    height: 40px;
+    padding: 5px 0px 0px 200px;
+}
+.main_menu img
+{
+    height: 100%;
+    width: auto;
+}
+.menu
+{
+    width: 100%;
+    height: 50px;
+    background-color: #52A800;
+}
+.menu_content
+{
+    width: 100%;
+    height: 50px;
+}
+.menu_content ul li
+{
+    list-style: none;
+    float: left;
+}
+.menu_content ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+/* Hết menu */
+/* Các list ul li */
+.size_list
+{
+    padding: 0px 200px 0px 0px;
+}
+.menu ul
+{
+    float: left;
+}
+/* Hết list */
+/* Front search */
+.search
+{
+    box-sizing: border-box;
+}
+.search_content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    min-width: 50px;
+}
+#search_box
+{
+    background: white;
+    border-radius: 20px;
+}
+#search_box #search_text
+{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+}
+#search_box:hover #search_text, #search_box #search_text:valid
+{
+    width: 200px;
+    padding: 10px 0px 10px 15px;
+}
+#search_box #search_button
+{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+}
+/* Hết front search */
+/* Giỏ Hàng và đăng ký */
+.sign
+{
+    padding: 5px 20px 0px 0px;
+    float: right;
+}
+#sign_button
+{
+    display: block;
+    color: #52A800;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.cart
+{
+    padding: 5px 100px 0px 0px;
+    float: right;
+}
+#cart_button
+{
+    display: block;
+    align-items: center;
+    color: #52A800;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/* Hết giỏ hàng đăng ký */
+.backgroud_footer
+{
+    width: 100%;
+    height: 90px;
+    background-color: #52A800;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+}
+/* .forn_footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: #52A800;
+}
+.fonr_footer
+{
+    width: 100%;
+    height: 50px;
+} */
+#text_hotline
+{
+    float: left;
+    width: 1000px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+#icon_messsenger
+{
+    float: right;
+    height: 60px;
+    margin: 15px 0px 0px 30px;
+}
+#icon_messsenger img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_zalo
+{
+    float: right;
+    height: 60px;
+    margin: 15px 0px 0px 0px;
+}
+#icon_zalo img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_facebook
+{
+    float: right;
+    height: 70px;
+    margin: 10px 0px 0px 0px;
+}
+#icon_facebook img
+{
+    height: 100%;
+    width: auto;
+}
+#icon
+{
+    float: left;
+}
+#text_lendautrangg button
+{
+    background-color: #7030A0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 22.5px 0px 0px 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.center_footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#icon_center_footer
+{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#icon_1
+{
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+#icon_1 img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_2
+{
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+#icon_2 img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_3
+{
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+#icon_3 img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_4
+{
+    float: left;
+    height: 80px;
+    padding: 10px;
+}
+#icon_4 img
+{
+    height: 100%;
+    width: auto;
+}
+.down_footer
+{
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    background-color: #52A800;
+}
+#text_copyright
+{
+    width: 1700px;
+    color: #D9D9D9;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#icon_1_dangkybang
+{
+    float: left;
+    height: 70px;
+    padding: 5px;
+    margin: 50px 0px 0px 30px;
+}
+#icon_1_dangkybang img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_2_dangkybang
+{
+    float: left;
+    height: 70px;
+    padding: 5px;
+    margin: 50px 0px 0px 30px;
+}
+#icon_2_dangkybang img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_3_dangkybang
+{
+    float: left;
+    height: 90px;
+    padding: 5px;
+    margin: 42.5px 0px 0px 0px;
+}
+#icon_3_dangkybang img
+{
+    height: 100%;
+    width: auto;
+}
+#icon_4_dangkybang
+{
+    float: left;
+    height: 90px;
+    padding: 5px;
+    margin: 42.5px 20px 0px 0px;
+}
+#icon_4_dangkybang img
+{
+    height: 100%;
+    width: auto;
+}
+#obligatory
+{
+    color: red;
+    font-weight: bold;
+}
+#icon_dangkybang
+{
+    width: 1000px;
+    height: 400px;
+}
+.sign_up
+{
+    background-color: white;
+    border: 10px solid #52A800;
+    border-radius: 80px;
+    margin: 150px 0px 1000px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.sign_up ul li
+{
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    font-size: 30px;
+    list-style: none;
+}
+#button_dangky button
+{
+    cursor: pointer;
+    background-color:#52A800;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 10px solid #52A800;
+    border-radius: 40px;
+    margin: 50px 0px 0px 190px;
+}
+#text_hoacdangkybang
+{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin: 50px 0px 0px 110px;
+}
+.sign_forn
+{
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #52A800;
+}
+#sign
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
